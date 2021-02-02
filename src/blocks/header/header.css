@@ -1,11 +1,14 @@
 @import url(./__icon/header__icon.css);
 @import url(./__title/header__title.css);
+@import url(./__navi/header__navi.css);
+@import url(./__naviBtn/header__naviBtn.css);
 
 .header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50px;
+    height: 70px;
     margin: 0 auto;
     background-color: black;
+    justify-content: space-between;
 }

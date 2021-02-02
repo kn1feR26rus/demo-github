@@ -1,0 +1,10 @@
+.header__naviBtn {
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.header__naviBtn:visited {
+    color: white;
+}
