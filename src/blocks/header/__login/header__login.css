@@ -1,0 +1,9 @@
+.header__login {
+    border: none; 
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
+    margin-right: 1%;
+}
