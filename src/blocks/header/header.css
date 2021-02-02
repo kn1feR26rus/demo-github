@@ -3,7 +3,6 @@
 @import url(./__navi/header__navi.css);
 @import url(./__naviBtn/header__naviBtn.css);
 @import url(./__login/header__login.css);
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
 .header {
     display: flex;
