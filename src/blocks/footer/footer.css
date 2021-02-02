@@ -2,6 +2,7 @@
 @import url(./footer__social.css);
 @import url(./footer__icon.css);
 @import url(./footer__ref.css);
+@import url(./footer__li.css);
 
 .footer {
     display: flex;
