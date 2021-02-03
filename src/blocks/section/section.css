@@ -2,6 +2,7 @@
 @import url(./section__find.css);
 @import url(./section__findBtn.css);
 @import url(./section__search.css);
+@import url(./section__result.css);
 
 .section {
     display: flex;
