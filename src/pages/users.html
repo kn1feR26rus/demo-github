@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="demo-github">
+    <meta name="keywords" content="demo, test, github-app">
+    <meta name="author" content="Олег Коваленко">
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <link type="image/png" sizes="16x16" rel="icon" href="../images/github.png">
+    <title>GitHub App</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <img class = "header__icon" src="../images/github.png">
+            <div class="header__navi">
+                <a class = "header__naviBtn" href="../index.html">Repositories</a>
+                <a class = "header__naviBtn" href="">Users</a>
+                <a class = "header__naviBtn" href="">Gists</a>
+            </div>
+            <input class= "header__login" type="button" value="Login">
+        </header>
+        <main class="main">
+            <section class="section">
+                <h1 class="section__title">Public repositories</h1>
+                <input type="text" class="section__find section__find-users" placeholder="Find users...">
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__copyright">&copy; Oleg Kovalenko</div>
+            <ul class="footer__social">
+                <li class = "footer__li"><a class = "footer__ref" href="https://www.instagram.com/leo26rus/" target="_blank"><img class="footer__icon" src="../images/insta.png" alt="instagram">Instagram</a></li>
+                <li class = "footer__li"><a class = "footer__ref" href="https://vk.com/leo26rus" target="_blank"><img class="footer__icon" src="../images/vk.png" alt="VKontakte">VKontakte</a></li>
+                <li class = "footer__li"><a class = "footer__ref" href="https://tlgg.ru/Leo26rus" target="_blank"><img class="footer__icon" src="../images/tg.png" alt="Telegram">Telegram</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script type="module" src="./pages/index.js"></script>
+</body>
