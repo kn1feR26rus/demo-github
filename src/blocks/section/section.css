@@ -1,5 +1,7 @@
 @import url(./section__title.css);
 @import url(./section__find.css);
+@import url(./section__findBtn.css);
+@import url(./section__search.css);
 
 .section {
     display: flex;
